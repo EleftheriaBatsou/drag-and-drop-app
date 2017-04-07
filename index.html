@@ -1,0 +1,29 @@
+<html>
+<head>
+
+<script type="text/javascript" src="script.js"></script>
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<script>
+
+</script>
+</head>
+<body>
+<h2 id="app_status">App status...</h2>
+<h1>Drop Zone</h1><h3>Drag and drop the icons</h3>
+<div id="drop_zone" ondragenter="drag_enter(event)" ondrop="drag_drop(event)" ondragover="return false" ondragleave="drag_leave(event)" ></div>
+<div id="elephant" class="objects" draggable="true" ondragstart="drag_start(event)" ondragend="drag_end(event)">Elephant</div>
+<div id="tiger" class="objects" draggable="true" ondragstart="drag_start(event)" ondragend="drag_end(event)">Tiger</div>
+<div id="beaver" class="objects" draggable="true" ondragstart="drag_start(event)" ondragend="drag_end(event)">Beaver</div>
+
+<button onclick="readDropZone()">Get Object Data</button>
+  
+  
+ <!---------------------- 
+          Footer 
+     ----------------------->    
+    <div id="footer"> <!-- for footer -->
+      <h5><a href="http://www.eleftheriabatsou.com" target="_blank">Eleftheria Batsou</a> | <a href="http://codepen.io/EleftheriaBatsou" target="_blank">Projects</a></h5>
+    </div> <!-- end footer -->
+</body>
+</html>

@@ -1,0 +1,48 @@
+.objects {
+    display:inline-block;
+    background-color: #FFF3CC;
+    border: #DFBC6A 1px solid;
+    width: 50px; 
+    height: 50px;
+    margin: 10px;
+    padding: 4px;
+    font-size: 18px;
+    text-align: center;
+    box-shadow: 2px 2px 2px #999;
+    cursor: move;
+}
+
+#elephant{
+  background-image: url(http://i1356.photobucket.com/albums/q729/eleftheria_b/dailycssimages/elephant_zpssrmhao22.png);
+  background-size: 61px 64px;
+}
+
+#tiger{
+  background-image: url(http://i1356.photobucket.com/albums/q729/eleftheria_b/dailycssimages/4.tiger_zpsd7sm9sck.png);
+  background-size: 64px 64px;
+}
+
+#beaver{
+  background-image: url(http://i1356.photobucket.com/albums/q729/eleftheria_b/dailycssimages/beaver_zpsqxe6izo5.png);
+  background-size: 62px 64px;
+}
+
+
+
+#drop_zone {
+    background-color: #EEE; 
+    border: #999 1px solid;
+    width: 280px; 
+    height: 200px;
+    padding: 8px;
+    font-size: 18px;
+}
+
+#footer{
+  text-align: left;
+  color: black;
+}
+
+#footer a:link{color: black; text-decoration: none;}
+#footer a:visited{color: black; text-decoration: none;}
+#footer a:hover{color: black; text-decoration: underline;}
